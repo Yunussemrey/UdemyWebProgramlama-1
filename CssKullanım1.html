@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Css ile örnek kodlar - 1 </title>
+    <style>
+     /* Css kodları */
+        p{
+            /*direk etiket adını yazıp oluşturabiliriz */
+            color: brown; 
+            font-size: 15px;
+            font-weight: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: underline;
+            font-style: italic;
+            text-align: center;
+            
+        }
+        /* "id" html kodlarına css de özellik vermek için benzersiz bir ad tanımlamamızı sağlar. */
+        #baslik{
+            font-variant: small-caps;
+            text-decoration:overline;
+            text-shadow: 2px 4px red;
+            }
+            /* "class" html kodlarına css de özellik vermek için aynı olan grup ad tanımlar */
+        .paragraf{
+            color:#004475;
+            text-decoration: line-through;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: left;
+            text-indent: 15px;
+            text-transform: capitalize;
+            line-height: 30px; /* satır aralarını açar */
+            letter-spacing: 5px; /* harfler arası */
+            word-spacing: 4px;   /* kelimeler arası mesafe */
+            
+
+
+        }
+
+    </style>
+
+    <!-- Paragraf etiketine css değerleri vererek özelleştirmek ve şık bir görünüm oluşturmak -->
+    <p> Merhaba, ben Web Programlama eğitimi alıyorum.</p>
+
+    <h1 id="baslik">Başlık 1 </h1>
+
+    <p class="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, consectetur facere iusto
+         dolorum assumenda tenetur neque temporibus error 
+        accusamus! Hic atque ducimus voluptatum dolorum optio incidunt maiores iste odit tempora!</p>
+
+        <!-- Html kodları arasında css kullanımı -->
+        <h2 style="color: blueviolet; text-decoration: underline;
+        font-style: italic;">Başlık 2</h2>
+
+</head>
+<body>
+    
+</body>
+</html>

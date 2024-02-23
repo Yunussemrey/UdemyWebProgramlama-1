@@ -1,0 +1,11 @@
+/*
+Css html etiketlerini kişiselleştirmemizi sağlar. 
+Benzeriz özellikler vermemizde yardımcı olur. (renk, şekil,boyut, konum ..)
+
+html sayfasına <head> bölümünde "<link rel="stylesheet" href="style.css">" etiketi ile bağlanır.
+
+sayfa içinde html etiketi içerisine de yazabiliriz ama önerilmez!
+
+Son kullanım ise yine <head> etiketi içerisine <style> .. </style> etiketleri arasında uygulanmasıdır.  
+
+*/

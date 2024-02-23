@@ -1,0 +1,68 @@
+#p1{
+    border-style: double;
+    height: 50px;
+}
+#h1{
+    border-style: dashed;
+    height: 30px;
+}
+#kutu1{
+    border-style: double;
+    border-width: 4px;
+    border-color: blueviolet;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+}
+#kutu2{
+    border-style: dotted;
+    border-width: 3px;
+    border-color: rgb(62, 145, 93); /* rgb renk kodlama yöntemi */
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    
+    background-color: rgb(201, 98, 8);
+    position: relative; /* kutu konumunun taşınması */
+    margin: auto;
+    z-index: 1; /* kutuyu öne çıkarır */
+    bottom: 30px;
+    overflow: auto; /* kutu içeriği taşarsa */
+}
+#kutu3{
+    border-style: solid;
+    border-width: 2px;
+    border-color: brown;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    margin:10px ;
+    background-color:darkgreen;
+    position: relative;
+    box-shadow:  3px 4px 4px 3px  salmon ; /* kutu ardalan gölgesi "inset kutu içine"*/
+    float: right; /* kutuyu sağa veya sol tarafa yaslar */
+}
+#kutu4{
+    border-style: solid;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    margin:10px ;
+    /* kutu arka plana fotoğraf yerleştirme */
+    background-image: url(fotolar/kutuFoto.jpg);
+    background-repeat: no-repeat; /* tekrar etmesin */
+    background-position: center; /* ortada olsun */
+    background-size: 150px; /* boyutu */
+}
+   
+    
+
